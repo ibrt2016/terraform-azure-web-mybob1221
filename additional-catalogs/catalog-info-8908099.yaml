@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "8908099"
+  annotations:
+    github.com/project-slug: ibrt2016/terraform-azure-web-mybob1221 # Change the value to your github repo which contains terraform code.
+    backstage.io/techdocs-ref: dir:.
+  links:
+  - url: https://github.com/claranet/terraform-azurerm-vnet
+    title: 'VNet Terraform Module'
+    icon: github
+  tags:
+    - azure
+    - vnet
+    - terraform
+    - existing-deployment
+    - ticket-number-8908099
+    - stack-mybob1221
+    - env-prod
+    - created-on-2024-07-29
+  title: 'Existing Stack mybob1221 - Azure Virtual Network - Ticket #8908099' # you can give any title
+  description: |
+    Create **Azure Virtual Network** in stack **mybob1221** and in **prod** environment\
+    \
+    **Ticket number:**  8908099\
+    **Created on:**  2024-07-29\
+    **Details:**  Create **Azure Virtual network** in a **Resource Group**, in an existing stack **mybob1221**, in **prod** environment and in **us-east** region\
+    **Action:**  Create an **Azure Virtual Network** in a **Resouce Group**\
+    **Brand new stack created?:**  No\
+    **Azure region:**  us-east
+    **Virtal network address space:**  10.30.0.0/16\
+    **Virtal network suffix:**  001\
+    **Stack name:**  mybob1221\
+    **Azure subscription:**  web
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
